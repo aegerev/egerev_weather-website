@@ -1,6 +1,7 @@
 # Alex Egerev's JavaScript Quiz Webpage
 
-[insert images here]
+![image](https://github.com/upennbootcamp23/egerev_weather-website/assets/143010411/ffe13ff3-fae9-44dc-b31b-abd8c4ba25fb)
+
 
 ## Description
 
@@ -43,4 +44,4 @@ While I may have had some help from multiple sources (as listed below), I can as
 Please refer to the LICENSE in the repo.
 
 ## Deployment
-Link to the deployed website: 
+Link to the deployed website: https://upennbootcamp23.github.io/egerev_weather-website/ 
