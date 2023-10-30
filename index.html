@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-------------------------------------------------CSS-->
+<link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+
+<!-------------------------------------------------head-->
+<head>
+    <meta charset="utf-8"/>
+
+    <title>Alexander Egerev's Weather Project</title>
+	<meta name="viewport" content="width=device-width", initial-scale="1.0"/>	
+</head>
+
+<!-------------------------------------------------body-->
+<body class="body" onload="loadPage();">
+<br>
+<!-------------------------------------------------mainHeader-->
+<header class="mainHeader">      
+	<nav>
+	  <ul>
+		<li class="active main-header-text">
+			<h1>  Weather Dashboard  </h1>
+		</li>
+	  </ul>
+	</nav>
+</header>
+
+<!-------------------------------------------------mainContent-->
+<div class="mainContent">
+
+	<!-------------------------------------------------content-->
+	<div class="content">
+ 
+		<!-------------------------------------------------topcontent-->
+		<article class="topcontent">			
+			
+			 <header> <h3> Search for a City:</h3>
+			 </header>  
+
+			<content>
+				<section class = "forecast">            
+					<input type="text" id="city_search" class = "city_search_txt">
+					<button id = "city_search" class = "city_search btn_search" onclick="searchCity()">Search</button>		
+				  </section>
+				  
+				  <section class = "selection">		  
+				  </section>			
+			</content>
+			<br>
+			<footer>
+				<p class="post-info"> 					
+				</p>
+			 </footer> 
+
+			 <br>
+			 <br>
+			 <section id = "btns_section" class = "btns_section">
+          
+			 </section>
+			 <br>
+
+		</article>
+	</div>
+</div> 
+<!-------------------------------------------------end of mainConten-->  
+  
+      <!-------------------------------------------------top-sidebar for current weather-->  
+    <aside class="top-sidebar">
+         <article id = "weather-text">	
+			<section id = "weather-title" class = "weather-title">
+				<p> Current day weather 
+						
+				</p>
+			</section>
+			<img id = "wicon" src = "">
+			<section id = "other-text">
+				<p> </p>
+			</section>
+						
+         </article>
+    </aside>
+	
+	<!-------------------------------------------------middle-sidebar for 5-day forecast-->  
+	<aside class="top-sidebar-forecast">
+
+		<aside class="middle-sidebar day1">
+			<article>
+				<section id = "weather-title-1" class = "weather-title">
+					<p>Forecast  Day 1					
+					</p>
+				</section>
+				<img id = "wicon-1" src = "">
+				<section id = "other-text-1">
+					<p> </p>
+				</section>		
+			</article>	 
+		</aside>
+		
+		<aside class="middle-sidebar day2">
+			<article>
+				<section id = "weather-title-2" class = "weather-title">
+					<p>Forecast  Day 2					
+					</p>
+				</section>
+				<img id = "wicon-2" src = "" >
+				<section id = "other-text-2">
+					<p> </p>
+				</section>	
+			</article>	 
+		</aside>
+	 
+		<aside class="middle-sidebar day3">
+			<article>
+				<section id = "weather-title-3" class = "weather-title">
+					<p>Forecast  Day 3					
+					</p>
+				</section>
+				<img id = "wicon-3" src = "" >
+				<section id = "other-text-3">
+					<p> </p>
+				</section>		
+			</article>	 
+		</aside>
+		
+		<aside class="middle-sidebar day4">
+			<article>
+				<section id = "weather-title-4" class = "weather-title">
+					<p>Forecast  Day 4 						
+					</p>
+				</section>
+				<img id = "wicon-4" src = "" >
+				<section id = "other-text-4">
+					<p> </p>
+				</section>	
+			</article>	 
+	</aside>
+
+		<aside class="middle-sidebar day5">
+			<article>
+			<section id = "weather-title-5" class = "weather-title">
+				<p>Forecast Day 5						
+				</p>
+			</section>
+			<img id = "wicon-5" src = "" >
+			<section id = "other-text-5">
+				<p> </p>
+			</section>
+			</article>	 
+		</aside>
+
+</aside>
+<!-------------------------------------------------mainFooter--> 	
+	<footer class="mainFooter">
+	<p>
+	<TABLE>
+	<TR>
+	Copyright &copy;  2023	Alexander Egerev. All rights reserved.				
+	</TR>
+	</TABLE>
+	</p>
+</body>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src=" https://cdn.jsdelivr.net/npm/dayjs@1.11.10/dayjs.min.js"></script>
+<script src = "./assets/script.js" defer></script>
+
+</html>
