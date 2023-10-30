@@ -25,6 +25,8 @@ When the user clicks on the button, the weather (both the current weather and th
 
 When the person refreshes the page, the buttons are still there.
 
+NOTE: This website comes pre-loaded with 6 Cities: Media, Illinois; Chester, England (Great Britain); Princeton, New Jersey; Yardley, Pennsylvania; Guanajuato, Mexico; and Philadelphia, Pennsylvania.
+
 ## Credits
 
 While I may have had some help from multiple sources (as listed below), I can assure you that the work provided is my own, original work.
