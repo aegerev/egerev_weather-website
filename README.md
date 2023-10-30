@@ -35,9 +35,7 @@ While I may have had some help from multiple sources (as listed below), I can as
 
 3. I tried doing JSON Parse to get the necessary information for the website to work. Luckily, w3Schools was there to help me out. (https://www.w3schools.com/Js/js_json_parse.asp). It's on display in my script.js file.
 
-4. To ensure that I had the code to create the 'past, present, future' blocks, I decided to create <div> elements inside my Javascript file. I used two links to make that happen: (https://stackoverflow.com/questions/867916/creating-a-div-element-in-jquery) and (https://stackoverflow.com/questions/10283414/jquery-add-div-with-class-definition). 
-
-5. In order to satisfy the acceptance criteria, I have Open Weather 5-Day Forecast API documentation. It is on full display in my code. (
+4. In order to satisfy the acceptance criteria, I have Open Weather 5-Day Forecast API documentation. It is on full display in my code. (
 https://openweathermap.org/forecast5). I also used the Open Weather Geo 1.0 API to get the latitude and longitude for the given city. (https://api.openweathermap.org/geo/1.0/direct)
 
 ## License
