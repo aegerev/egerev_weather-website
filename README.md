@@ -45,4 +45,4 @@ https://openweathermap.org/forecast5). I also used the Open Weather Geo 1.0 API 
 Please refer to the LICENSE in the repo.
 
 ## Deployment
-Link to the deployed website: https://upennbootcamp23.github.io/egerev_weather-website/ 
+Link to the deployed website: https://aegerev.github.io/egerev_weather-website/
