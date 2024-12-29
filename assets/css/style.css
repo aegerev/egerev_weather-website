@@ -1,4 +1,3 @@
-
 body {
     background-color:  blue;
     color: #000305; 
@@ -60,7 +59,7 @@ a:hover, a:active
 
 .mainHeader nav 
    {
-   background-color: red;
+   background-color: #C0C0C0;
    color: green;
    height: 40px;
    border-radius: 5px;
